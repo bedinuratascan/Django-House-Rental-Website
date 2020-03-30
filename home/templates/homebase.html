@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+{% load static %}
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
@@ -9,25 +10,25 @@
 	<title>{% block title %} Anasayfa - Zonebiz - Business Consulting Bootstrap4 Responsive Template {% endblock %} </title>
     <meta name="keywords" content="{% block keywords %} Anasayfa Anahtar Kelimeler {% endblock %} ">
     <meta name="description" content="{% block description %} Anasayfa Kısa Açıklama {% endblock %} ">
-
 	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 	<!-- Fontawesome CSS -->
-	<link href="css/all.css" rel="stylesheet">
+	<link href="{% static 'css/all.css' %}" rel="stylesheet">
 	<!-- Owl Carousel CSS -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
+	<link href="{% static 'css/owl.carousel.min.css' %}" rel="stylesheet">
 	<!-- Owl Carousel CSS -->
-	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="{% static 'css/jquery.fancybox.min.css' %}" rel="stylesheet">
 	<!-- Custom styles for this template -->
-	<link href="css/style.css" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
     {% block head %}{% endblock %}
 </head>
 <body>
 <div class="wrapper-main">
     {% include 'navigation.html' %}
-    {% include 'header.html' %}
-    {% include 'content.html' %}
+    {% block header %}{% endblock %}
+    {% block content %}{% endblock %}
     {% include 'footer.html' %}
+    {% block foot %}{% endblock %}
 </div>
     {% include 'javascript.html' %}
 </body>

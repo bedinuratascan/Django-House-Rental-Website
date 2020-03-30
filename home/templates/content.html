@@ -1,3 +1,4 @@
+{% load static %}
     <!-- Page Content -->
     <div class="container">
         <!-- About Section -->
@@ -15,7 +16,7 @@
                   </ul>
                </div>
                <div class="col-lg-6">
-                  <img class="img-fluid rounded" src="images/about-img.jpg" alt="" />
+                  <img class="img-fluid rounded" src="{% static 'images/about-img.jpg' %}" alt="" />
                </div>
             </div>
             <!-- /.row -->
@@ -30,7 +31,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-01.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-01.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Analytics </h4>
@@ -41,7 +42,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-02.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-02.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Applications </h4>
@@ -52,7 +53,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-03.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-03.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Business Process </h4>
@@ -63,7 +64,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-04.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-04.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Consulting </h4>
@@ -74,7 +75,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-05.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-05.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Infrastructure </h4>
@@ -85,7 +86,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/services-img-06.jpg" alt="" />
+							<img class="img-fluid" src="{% static 'images/services-img-06.jpg' %}" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Product Engineering </h4>
@@ -115,8 +116,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item financial">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-01.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-01.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src={% static 'images/portfolio-img-01.jpg' %} alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -130,8 +131,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item business academic">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-02.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-02.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-02.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src="{% static 'images/portfolio-img-02.jpg' %}" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -145,8 +146,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item travel">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-03.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-03.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-03.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src="{% static 'images/portfolio-img-03.jpg' %}" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -160,8 +161,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item business">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-04.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-04.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-04.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src="{% static 'images/portfolio-img-04.jpg' %}" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -175,8 +176,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item travel">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-05.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-05.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-05.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src="{% static 'images/portfolio-img-05.jpg' %}" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -190,8 +191,8 @@
                <div class="col-lg-4 col-sm-6 pro-item portfolio-item financial academic">
                   <div class="card h-100">
                      <div class="card-img">
-                        <a href="images/portfolio-img-01.jpg" data-fancybox="images">
-                           <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                        <a href="{% static 'images/portfolio-img-01.jpg' %}" data-fancybox="images">
+                           <img class="card-img-top" src="{% static 'images/portfolio-img-01.jpg' %}" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
@@ -219,12 +220,12 @@
 									<a href="#">Latest blog Post</a>
 								</h4>
 								<ul class="post-bar">
-									<li><img src="images/testi_01.png" alt=""><a href="#">Williamson</a></li>
+									<li><img src="{% static 'images/testi_01.png' %}" alt=""><a href="#">Williamson</a></li>
 									<li><i class="fa fa-calendar"></i>02 June 2018</li>
 								</ul>
 							</div>
 							<div class="pic">
-								<img src="images/img-1.jpg" alt="">
+								<img src="{% static 'images/img-1.jpg' %}" alt="">
 								<ul class="post-category">
 									<li><a href="#">Business</a></li>
 									<li><a href="#">Financ</a></li>
@@ -241,12 +242,12 @@
 									<a href="#">Latest blog Post</a>
 								</h4>
 								<ul class="post-bar">
-									<li><img src="images/testi_02.png" alt=""><a href="#">Kristiana</a></li>
+									<li><img src="{% static 'images/testi_02.png' %}" alt=""><a href="#">Kristiana</a></li>
 									<li><i class="fa fa-calendar"></i>05 June 2018</li>
 								</ul>
 							</div>
 							<div class="pic">
-								<img src="images/img-2.jpg" alt="">
+								<img src="{% static 'images/img-2.jpg' %}" alt="">
 								<ul class="post-category">
 									<li><a href="#">Business</a></li>
 									<li><a href="#">Financ</a></li>
@@ -263,12 +264,12 @@
 									<a href="#">Latest blog Post</a>
 								</h4>
 								<ul class="post-bar">
-									<li><img src="images/testi_01.png" alt=""><a href="#">Kristiana</a></li>
+									<li><img src="{% static 'images/testi_01.png' %}" alt=""><a href="#">Kristiana</a></li>
 									<li><i class="fa fa-calendar"></i>05 June 2018</li>
 								</ul>
 							</div>
 							<div class="pic">
-								<img src="images/img-3.jpg" alt="">
+								<img src="{% static 'images/img-3.jpg' %}" alt="">
 								<ul class="post-category">
 									<li><a href="#">Business</a></li>
 									<li><a href="#">Financ</a></li>
@@ -285,12 +286,12 @@
 									<a href="#">Latest blog Post</a>
 								</h4>
 								<ul class="post-bar">
-									<li><img src="images/testi_02.png" alt=""><a href="#">Kristiana</a></li>
+									<li><img src="{% static 'images/testi_02.png' %}" alt=""><a href="#">Kristiana</a></li>
 									<li><i class="fa fa-calendar"></i>05 June 2018</li>
 								</ul>
 							</div>
 							<div class="pic">
-								<img src="images/img-4.jpg" alt="">
+								<img src="{% static 'images/img-4.jpg' %}" alt="">
 								<ul class="post-category">
 									<li><a href="#">Business</a></li>
 									<li><a href="#">Financ</a></li>

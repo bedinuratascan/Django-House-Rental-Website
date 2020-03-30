@@ -1,3 +1,4 @@
+{% load static %}
 <header class="slider-main">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -7,21 +8,21 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                <!-- Slide One - Set the background image for this slide in the line below -->
-               <div class="carousel-item active" style="background-image: url('images/slider-01.jpg')">
+               <div class="carousel-item active" style="background-image: url({% static 'images/slider-01.jpg' %}) ">
                   <div class="carousel-caption d-none d-md-block">
                      <h3>Welcome to Zonebiz</h3>
                      <p>A Great Theme For Business Consulting</p>
                   </div>
                </div>
                <!-- Slide Two - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url('images/slider-02.jpg')">
+               <div class="carousel-item" style="background-image: url({% static 'images/slider-02.jpg' %})">
                   <div class="carousel-caption d-none d-md-block">
                      <h3>Best Consulting Services.</h3>
                      <p>A Great Theme For Business Consulting</p>
                   </div>
                </div>
                <!-- Slide Three - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url('images/slider-03.jpg')">
+               <div class="carousel-item" style="background-image: url({% static 'images/slider-03.jpg'%})">
                   <div class="carousel-caption d-none d-md-block">
                      <h3>Welcome to Zonebiz</h3>
                      <p>A Great Theme For Business Consulting</p>
