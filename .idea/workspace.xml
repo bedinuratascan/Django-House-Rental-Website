@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="" />
+    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +94,7 @@
       <workItem from="1584711233344" duration="740000" />
       <workItem from="1585231322070" duration="30000" />
       <workItem from="1585341020209" duration="1653000" />
-      <workItem from="1585584994166" duration="11581000" />
+      <workItem from="1585584994166" duration="13885000" />
     </task>
     <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
       <created>1585597292080</created>
@@ -97,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585597292080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7th-Video/House-Admin-ImageGallery">
+      <created>1585597377574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585597377574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,10 +125,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1585343124298" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585597289488">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585597376793">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585597289488" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585597376793" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1585593039609">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -132,6 +145,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585593039609" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585597386017">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585597386017" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585585045796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

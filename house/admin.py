@@ -8,16 +8,21 @@ class HouseImageInline(admin.TabularInline):
     extra = 6
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['title', 'status']
+    list_display = ['title', 'image_tag', 'status']
     list_filter = ['status']
+    readonly_fields = ('image_tag',)
+
 
 class HouseAdmin(admin.ModelAdmin):
-    list_display = ['title', 'category', 'rent', 'status']
+    list_display = ['title', 'category', 'rent', 'image_tag', 'status']
     list_filter = ['status', 'category']
     inlines = [HouseImageInline]
+    readonly_fields = ('image_tag',)
 
 class ImagesAdmin(admin.ModelAdmin):
-    list_display = ['title', 'house', 'image']
+    list_display = ['title', 'house', 'image_tag']
+    readonly_fields = ('image_tag',)
+
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(House, HouseAdmin)
