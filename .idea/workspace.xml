@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/javascript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,22 +88,34 @@
       <workItem from="1584711233344" duration="740000" />
       <workItem from="1585231322070" duration="30000" />
       <workItem from="1585341020209" duration="1653000" />
-      <workItem from="1585584994166" duration="11298000" />
+      <workItem from="1585584994166" duration="11581000" />
     </task>
+    <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
+      <created>1585597292080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585597292080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7th-Video/House-Admin-ImageGallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="7th-Video/House-Admin-ImageGallery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585343124298">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1585343124298" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585343693089">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585597289488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585343693089" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585597289488" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1585593039609">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
