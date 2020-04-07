@@ -24,9 +24,48 @@
 			</div>
 		</div>
 	</div>
-	<div class="about-inner">
-        <div class="container">
-            {{ setting.contact | safe }}
-        </div>
-    </div>
+	  <div class="contact-main">
+		<div class="container">
+			<!-- Content Row -->
+		  <div class="row">
+			<!-- Map Column -->
+				<div class="col-lg-8 mb-4 contact-left">
+					<h3>İletişim Formu</h3>
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}" role="alert">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <input type="submit" value="GÖNDER">
+                    </form>
+				</div>
+				<!-- Contact Details Column -->
+				<div class="col-lg-4 mb-4 contact-right">
+					<h3>Contact Details</h3>
+					<p>
+						3481 Melrose Place
+						<br>Beverly Hills, CA 90210
+						<br>
+					</p>
+					<p>
+						<abbr title="Phone">P</abbr>: (123) 456-7890
+					</p>
+					<p>
+						<abbr title="Email">E</abbr>:
+						<a href="mailto:name@example.com"> name@example.com </a>
+					</p>
+					<p>
+						<abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+					</p>
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
 {% endblock %}
