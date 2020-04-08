@@ -7,27 +7,14 @@
                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-               <!-- Slide One - Set the background image for this slide in the line below -->
-               <div class="carousel-item active" style="background-image: url({% static 'images/slider-01.jpg' %}) ">
+               {% for rs in sliderdata %}
+               <div class="carousel-item active" style="background-image: url({{ rs.image.url }}) ">
                   <div class="carousel-caption d-none d-md-block">
-                     <h3>Welcome to Zonebiz</h3>
-                     <p>A Great Theme For Business Consulting</p>
+                     <h3>{{ rs.title  }}</h3>
+                      <p><a href="/house/{{ rs.id }}/{{ rs.slug }}">{{ rs.description }}</a></p>
                   </div>
                </div>
-               <!-- Slide Two - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url({% static 'images/slider-02.jpg' %})">
-                  <div class="carousel-caption d-none d-md-block">
-                     <h3>Best Consulting Services.</h3>
-                     <p>A Great Theme For Business Consulting</p>
-                  </div>
-               </div>
-               <!-- Slide Three - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url({% static 'images/slider-03.jpg'%})">
-                  <div class="carousel-caption d-none d-md-block">
-                     <h3>Welcome to Zonebiz</h3>
-                     <p>A Great Theme For Business Consulting</p>
-                  </div>
-               </div>
+               {% endfor %}
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
