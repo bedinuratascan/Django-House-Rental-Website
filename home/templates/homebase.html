@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="wrapper-main">
-    {% include 'navigation.html' %}
+    {% block navigation %}{% endblock %}
     {% block header %}{% endblock %}
     {% block content %}{% endblock %}
     {% include 'footer.html' %}
