@@ -17,15 +17,18 @@ def index(request):
                'category': category}
     return render(request, 'index.html', context)
 
+
 def hakkimizda(request):
     setting = Setting.objects.get(pk=1)
     context = {'setting': setting}
     return render(request, 'hakkimizda.html', context)
 
+
 def referanslar(request):
     setting = Setting.objects.get(pk=1)
     context = {'setting': setting}
     return render(request, 'referanslar.html', context)
+
 
 def iletisim(request):
     if request.method == 'POST':
@@ -45,3 +48,11 @@ def iletisim(request):
     form = ContactFormu()
     context = {'setting': setting, 'form': form}
     return render(request, 'iletisim.html', context)
+
+
+def category_houses(request, id, slug):
+    houses = House.objects.filter(category_id=id)
+    category = Category.objects.all()
+    categoryData = Category.objects.get(pk=id)
+    context = {'houses': houses, 'category': category, 'categoryData': categoryData}
+    return render(request, 'houses.html', context)
