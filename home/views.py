@@ -9,13 +9,20 @@ from house.models import House, Category
 
 def index(request):
     setting = Setting.objects.get(pk=1)
-    sliderdata = House.objects.all()[:3]
+    slider_data = House.objects.all()[:3]
     category = Category.objects.all()
+    random_houses = House.objects.all()[:6]
+    last_houses = House.objects.all().order_by('-id')[:6]
+
     context = {'setting': setting,
-               'sliderdata': sliderdata,
+               'slider_data': slider_data,
                'page': 'home',
-               'category': category}
+               'category': category,
+               'random_houses': random_houses,
+               'last_houses': last_houses,
+               }
     return render(request, 'index.html', context)
+
 
 
 def hakkimizda(request):

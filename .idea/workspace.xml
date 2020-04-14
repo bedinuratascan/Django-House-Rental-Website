@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="14th-Video/Added-Slider">
-      <change afterPath="$PROJECT_DIR$/home/templates/houses.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/djangoMimari.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_3jG4OSP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_8E7qpSJ.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_Clc8rPp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_IEsuKqX.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_ZbEPQge.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_fi16Vmq.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_gUdhM34.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hiVB4fR.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hkAvqo0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_taT0G36.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_HHudEsV.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_MT1OnLe.PNG" afterDir="false" />
@@ -18,8 +20,12 @@
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_oenwor1.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/referanslar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/urls.py" afterDir="false" />
     </list>
@@ -125,7 +131,10 @@
       <workItem from="1586471430681" duration="156000" />
       <workItem from="1586527332018" duration="720000" />
       <workItem from="1586554416061" duration="5180000" />
-      <workItem from="1586625586617" duration="14131000" />
+      <workItem from="1586625586617" duration="14912000" />
+      <workItem from="1586693153311" duration="4633000" />
+      <workItem from="1586812204995" duration="4514000" />
+      <workItem from="1586871932453" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
       <created>1585597292080</created>
@@ -190,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586631310262</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="16th-Video/Displaying-Category-Items">
+      <created>1586641628293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586641628293</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +222,8 @@
     <MESSAGE value="13th-Video/Added-Contact-Form" />
     <MESSAGE value="14th-Video/Added-Slider" />
     <MESSAGE value="15th-Video/Added-Category-And-Subcategory-Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="15th-Video/Added-Category-And-Subcategory-Menu" />
+    <MESSAGE value="16th-Video/Displaying-Category-Items" />
+    <option name="LAST_COMMIT_MESSAGE" value="16th-Video/Displaying-Category-Items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1586283832645">
@@ -217,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586460619288" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586631306655">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586641626790">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586631306655" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586641626790" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586213440738">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -237,14 +254,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586631316363">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586641645843">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586631316363" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586625738099">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586641645843" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586871932426">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586625738099" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586871932426" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585343130412">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
