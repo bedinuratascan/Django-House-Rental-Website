@@ -2,6 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="14th-Video/Added-Slider">
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_mixin.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_responsive.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_theme_color.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_mixin.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_responsive.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_theme_color.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/classy-nav.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/core-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/core-style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/favorites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/classy-nav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/map-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_theme_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/house_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/house/migrations/0008_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064_RLZuhAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064_nbvkuUw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Christmas-food-roasted-turkey-english-culture-blog.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/djangoMimari.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_3jG4OSP.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_8E7qpSJ.jpg" afterDir="false" />
@@ -13,26 +92,36 @@
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hiVB4fR.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hkAvqo0.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_taT0G36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410_D7icr5d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410_TDoRqJI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/yemekbig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/yemekbig_FYINigs.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_HHudEsV.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_MT1OnLe.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_OniSgtN.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_oenwor1.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/zonebiz/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/zonebiz/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/referanslar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/javascript.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +223,13 @@
       <workItem from="1586625586617" duration="14912000" />
       <workItem from="1586693153311" duration="4633000" />
       <workItem from="1586812204995" duration="4514000" />
-      <workItem from="1586871932453" duration="1006000" />
+      <workItem from="1586871932453" duration="2785000" />
+      <workItem from="1586892942402" duration="5242000" />
+      <workItem from="1586959886235" duration="11000" />
+      <workItem from="1587478552321" duration="608000" />
+      <workItem from="1588072509663" duration="21071000" />
+      <workItem from="1588247612716" duration="22708000" />
+      <workItem from="1588333403028" duration="4874000" />
     </task>
     <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
       <created>1585597292080</created>
@@ -206,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586641628293</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="17th-Video/Displaying-Items-on-Main-Page">
+      <created>1586873093217</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586873093217</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +325,8 @@
     <MESSAGE value="14th-Video/Added-Slider" />
     <MESSAGE value="15th-Video/Added-Category-And-Subcategory-Menu" />
     <MESSAGE value="16th-Video/Displaying-Category-Items" />
-    <option name="LAST_COMMIT_MESSAGE" value="16th-Video/Displaying-Category-Items" />
+    <MESSAGE value="17th-Video/Displaying-Items-on-Main-Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="17th-Video/Displaying-Items-on-Main-Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1586283832645">
@@ -234,10 +337,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586460619288" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586641626790">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586873089728">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586641626790" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586873089728" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586213440738">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -254,18 +357,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586641645843">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586873099999">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586641645843" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586871932426">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586873099999" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588333424691">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586871932426" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588333424691" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585343130412">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1585343130412" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1588279517289">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.738@0.0.1366.738" timestamp="1588279517289" />
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1588097740772">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588097740772" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,6 +385,11 @@
           <url>file://C:/Python38/Lib/site-packages/django/db/models/base.py</url>
           <line>529</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/home/templates/homebase.html</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

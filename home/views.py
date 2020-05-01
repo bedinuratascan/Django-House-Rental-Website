@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from home.models import Setting, ContactFormMessage, ContactFormu
-from house.models import House, Category
+from house.models import House, Category, Images, Comment
 
 
 def index(request):
@@ -63,3 +63,15 @@ def category_houses(request, id, slug):
     categoryData = Category.objects.get(pk=id)
     context = {'houses': houses, 'category': category, 'categoryData': categoryData}
     return render(request, 'houses.html', context)
+
+
+def house_detail(request, id, slug):
+    category = Category.objects.all()
+    house = House.objects.get(pk=id)
+    images = Images.objects.filter(house_id=id)
+    comments = Comment.objects.filter(house_id=id,status='True')
+    context = {'house': house,
+               'category': category,
+               'images': images,
+               'comments': comments}
+    return render(request, 'house_detail.html', context)
