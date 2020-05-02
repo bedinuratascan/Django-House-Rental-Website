@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 
 # Create your views here.
+from home.forms import SearchForm
 from home.models import Setting, ContactFormMessage, ContactFormu
 from house.models import House, Category, Images, Comment
 
@@ -75,3 +76,31 @@ def house_detail(request, id, slug):
                'images': images,
                'comments': comments}
     return render(request, 'house_detail.html', context)
+
+
+def house_search(request):
+    if request.method == 'POST':
+        form = SearchForm(request.POST)
+        if form.is_valid():
+            category = Category.objects.all()
+            query = form.cleaned_data['query']
+            houses = House.objects.filter(title__icontains=query)
+            context = {'houses': houses,
+                       'category': category,
+                       }
+            return render(request, 'house_search.html', context)
+
+    return HttpResponseRedirect('/')
+
+
+
+
+
+
+
+
+
+
+
+
+

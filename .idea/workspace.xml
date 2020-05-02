@@ -1,118 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="14th-Video/Added-Slider">
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/_variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/_variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/.sass-cache/997c61c8c2a2a831333fab68bc2254612bdf8817/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/classy-nav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/core-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/core-style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helvetica_neu_bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/fonts/helveticaneue_medium-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/bg-img/cart3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/favorites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/core-img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/pro-big-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/img/product-img/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/classy-nav.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/map-active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_theme_color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/gallery/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/house_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house/migrations/0008_comment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064_RLZuhAB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Bretagne_Finistere_BauernhausaufCrozon_19064_nbvkuUw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Christmas-food-roasted-turkey-english-culture-blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/djangoMimari.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_3jG4OSP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_8E7qpSJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_Clc8rPp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_IEsuKqX.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_ZbEPQge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_fi16Vmq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_gUdhM34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hiVB4fR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_hkAvqo0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/kiralık_daire3-5C39DC35122C7-530_393_taT0G36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410_D7icr5d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mustakil-ev-min-728x410_TDoRqJI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/yemekbig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/yemekbig_FYINigs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/youtube8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_HHudEsV.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_MT1OnLe.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_OniSgtN.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/youtube8_oenwor1.PNG" afterDir="false" />
+    <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/house_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPS/zonebiz/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/zonebiz/blog-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/house_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/house_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/house/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Cython" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -229,7 +126,9 @@
       <workItem from="1587478552321" duration="608000" />
       <workItem from="1588072509663" duration="21071000" />
       <workItem from="1588247612716" duration="22708000" />
-      <workItem from="1588333403028" duration="4874000" />
+      <workItem from="1588333403028" duration="5475000" />
+      <workItem from="1588366435159" duration="8567000" />
+      <workItem from="1588417600248" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
       <created>1585597292080</created>
@@ -308,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586873093217</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="18th-Video/Added-Item-Detail-Image-Gallery &amp;&amp; 19th-Video/Added-Item-Comment">
+      <created>1588338616838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588338616838</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +232,8 @@
     <MESSAGE value="15th-Video/Added-Category-And-Subcategory-Menu" />
     <MESSAGE value="16th-Video/Displaying-Category-Items" />
     <MESSAGE value="17th-Video/Displaying-Items-on-Main-Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="17th-Video/Displaying-Items-on-Main-Page" />
+    <MESSAGE value="18th-Video/Added-Item-Detail-Image-Gallery &amp;&amp; 19th-Video/Added-Item-Comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="18th-Video/Added-Item-Detail-Image-Gallery &amp;&amp; 19th-Video/Added-Item-Comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1586283832645">
@@ -337,34 +244,34 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586460619288" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586873089728">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1588338609988">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586873089728" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586213440738">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588338609988" />
+    <state width="1367" height="189" key="GridCell.Tab.0.bottom" timestamp="1588375022354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1586213440738">
+    <state width="1367" height="189" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588375022354" />
+    <state width="1367" height="189" key="GridCell.Tab.0.center" timestamp="1588375022354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1586213440738">
+    <state width="1367" height="189" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588375022354" />
+    <state width="1367" height="189" key="GridCell.Tab.0.left" timestamp="1588375022354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1586213440738">
+    <state width="1367" height="189" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588375022354" />
+    <state width="1367" height="189" key="GridCell.Tab.0.right" timestamp="1588375022354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586213440738" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586873099999">
+    <state width="1367" height="189" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588375022354" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588338620619">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586873099999" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588333424691">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588338620619" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588417619577">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588333424691" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588417619577" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585343130412">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -373,10 +280,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1366.738@0.0.1366.738" timestamp="1588279517289" />
-    <state x="346" y="59" key="search.everywhere.popup" timestamp="1588097740772">
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1588371876125">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588097740772" />
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588371876125" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
