@@ -1,3 +1,5 @@
+import json
+
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
@@ -91,6 +93,11 @@ def house_search(request):
             return render(request, 'house_search.html', context)
 
     return HttpResponseRedirect('/')
+
+
+
+
+
 
 
 

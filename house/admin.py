@@ -10,25 +10,31 @@ class HouseImageInline(admin.TabularInline):
     model = Images
     extra = 6
 
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['title', 'status']
     list_filter = ['status']
+
 
 class HouseAdmin(admin.ModelAdmin):
     list_display = ['title', 'category', 'rent', 'image_tag', 'status']
     readonly_fields = ('image_tag',)
     list_filter = ['status', 'category']
     inlines = [HouseImageInline]
+    prepopulated_fields = {'slug': ('title',)}
+
 
 class ImagesAdmin(admin.ModelAdmin):
     list_display = ['title', 'house', 'image_tag']
     readonly_fields = ('image_tag',)
+
 
 class CategoryAdmin2(DraggableMPTTAdmin):
     mptt_indent_field = "title"
     list_display = ('tree_actions', 'indented_title',
                     'related_houses_count', 'related_houses_cumulative_count')
     list_display_links = ('indented_title',)
+    prepopulated_fields = {'slug': ('title',)}
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)

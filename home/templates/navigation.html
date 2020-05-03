@@ -1,50 +1,67 @@
-<!-- Navigation -->
-{% load static %}
-<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="{% static 'images/logo.png' %}" alt="logo" />
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fas fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                {% load mptt_tags %}
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategori <i class="fas fa-sort-down"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        {% recursetree category %}
-                            <a class="dropdown-item" href="/category/{{ node.id }}/{{ node.slug }}"> {{ node.title }} </a>
-                            {% if not node.is_leaf_node %}
-                                <a class="dropdown-item" href="#">{{ children }}</a>
-                            {% endif %}
-                        {% endrecursetree %}
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/referanslar">REFERANSLAR</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/iletisim">İLETİŞİM</a>
-                </li>
-                <li class="nav-item">
-                    <form action="/search/" method="post">
+<header class="site-navbar" role="banner">
+    <div class="site-navbar-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+                    <form action="/search/" method="post" class="site-block-top-search">
                         {% csrf_token %}
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="query" placeholder="Enter your keyword...">
-                        </div>
+                        <span class="icon icon-search2"></span>
+                        <input type="text" name="query" id="query" class="form-control border-0" placeholder="Enter Your Keyword"/>
                     </form>
-                </li>
-            </ul>
+                </div>
+                <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                    <div class="site-logo">
+                        <a href="/" class="js-logo-clone">EV KİRALAMA SİTESİ</a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                    <div class="site-top-icons">
+                        <ul>
+                            <li><span class="icon icon-person"></span></li>
+                            <li><a href="#">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</nav>
+    <nav class="site-navigation text-right text-md-center" role="navigation">
+        <div class="container">
+            <ul class="site-menu js-clone-nav d-none d-md-block">
+                <li><a href="/">ANASAYFA</a></li>
+                <li class="has-children ">
+                    <a href="index.html">KATEGORİ</a>
+                    {% load mptt_tags %}
+                    <ul class="dropdown">
+                        {% recursetree category %}
+                            <li class="has-children">
+                                <a href="/category/{{ node.id }}/{{ node.slug }}">{{ node.title }}</a>
+                                {% if not node.is_leaf_node %}
+                                    <ul class="dropdown">
+                                        {{ children }}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endrecursetree %}
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="about.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="/hakkimizda">HAKKIMIZDA</a></li>
+                <li><a href="/referanslar">REFERANSLAR</a></li>
+                <li><a href="/iletisim">İLETİŞİM</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
 
 
