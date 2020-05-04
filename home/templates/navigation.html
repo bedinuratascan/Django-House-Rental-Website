@@ -20,8 +20,8 @@
                             {% if user.id is not None %}
                                 <li><span class="icon icon-person"> </span><a href="#">{{ user.first_name }} {{ user.last_name }}</a><span><a href="/logout/">Logout</a></span></li>
                             {% else %}
-                                <li><span class="icon icon-lock"> </span><a href="/login/">Login</a></li>
-                                <li><span class="icon icon icon-account_circle"></span> <a href="/join/">Join</a></li>
+                                <li><span class="icon icon-lock"></span> <a href="/login/"> Login</a></li>
+                                <li><span class="icon icon icon-account_circle"></span><a href="/signup/">Sign up</a></li>
                             {% endif %}
                         </ul>
                     </div>
