@@ -37,8 +37,11 @@
                         <ul class="list-group" style="padding: 25px 25px">
                             <table style="width:100%">
                                 <tr style="border-bottom:1px solid #d9d9d9">
-                                    <th></th>
-                                    <td><img src="{{ profile.image.url }}" alt="" style="height: 120px"></td>
+                                    <th>
+                                        <a href="/user/update" class="btn btn-sm btn-primary">Update Profile</a>
+                                        <a href="/user/password" class="btn btn-sm btn-primary">Change Password</a>
+                                    </th>
+                                    <td><img src="{{ profile.image.url }}" alt="" style="height: 120px;border-radius: 60px"></td>
                                 </tr>
                                 <tr style="border-bottom:1px solid #d9d9d9">
                                     <th>Name Surname</th>
