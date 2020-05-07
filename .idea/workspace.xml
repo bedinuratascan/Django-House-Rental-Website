@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119a71cb-5e7f-4576-86d8-7dca96605090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_comments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_panel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
@@ -142,7 +139,7 @@
       <workItem from="1588775840174" duration="48000" />
       <workItem from="1588779393839" duration="4000" />
       <workItem from="1588856334044" duration="12834000" />
-      <workItem from="1588874888563" duration="242000" />
+      <workItem from="1588874888563" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="7th-Video/House-Admin-ImageGallery">
       <created>1585597292080</created>
@@ -277,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588681651402</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="31th-Video/Added-Member-Information-and-Password-Change-Views.">
+      <created>1588875346534</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1588875346534</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +306,8 @@
     <MESSAGE value="24th-Video/Created-User-Signup-Form" />
     <MESSAGE value="25th-Video/Added-User-Profile-Additional-Information-and-Image" />
     <MESSAGE value="26th-Video/Added-Member-Panel-and-Profile-Information" />
-    <option name="LAST_COMMIT_MESSAGE" value="26th-Video/Added-Member-Panel-and-Profile-Information" />
+    <MESSAGE value="31th-Video/Added-Member-Information-and-Password-Change-Views." />
+    <option name="LAST_COMMIT_MESSAGE" value="31th-Video/Added-Member-Information-and-Password-Change-Views." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1586283832645">
@@ -313,10 +318,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586460619288" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1588681648489">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1588875342827">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588681648489" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588875342827" />
     <state width="1367" height="189" key="GridCell.Tab.0.bottom" timestamp="1588375022354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -333,10 +338,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1367" height="189" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588375022354" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588681653644">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588875544345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588681653644" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588875544345" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588874888651">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
