@@ -47,6 +47,7 @@ class House(models.Model):
         ('True', 'Evet'),
         ('False', 'Hayır'),
     )
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     title = models.CharField(blank=True, max_length=255)
     keywords = models.CharField(blank=True, max_length=255)
@@ -112,8 +113,9 @@ class Comment(models.Model):
         return self.subject
 
 
-
 class CommentForm(ModelForm):
     class Meta:
         model = Comment
         fields = ['subject', 'comment']
+
+

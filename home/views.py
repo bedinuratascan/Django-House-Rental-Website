@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from home.forms import SearchForm, SignUpForm
-from home.models import Setting, ContactFormMessage, ContactFormu
+from home.models import Setting, ContactFormMessage, ContactFormu, UserProfile, Faq
 from house.models import House, Category, Images, Comment
 
 
@@ -17,7 +17,6 @@ def index(request):
     category = Category.objects.all()
     random_houses = House.objects.all()[:6]
     last_houses = House.objects.all().order_by('-id')[:6]
-
     context = {'setting': setting,
                'slider_data': slider_data,
                'page': 'home',
@@ -73,7 +72,7 @@ def house_detail(request, id, slug):
     category = Category.objects.all()
     house = House.objects.get(pk=id)
     images = Images.objects.filter(house_id=id)
-    comments = Comment.objects.filter(house_id=id,status='True')
+    comments = Comment.objects.filter(house_id=id, status='True')
     context = {'house': house,
                'category': category,
                'images': images,
@@ -92,7 +91,6 @@ def house_search(request):
                        'category': category,
                        }
             return render(request, 'house_search.html', context)
-
     return HttpResponseRedirect('/')
 
 
@@ -126,8 +124,13 @@ def signup_view(request):
             form.save()
             username = form.cleaned_data.get('username')
             password = form.cleaned_data.get('password1')
-            user = authenticate(request, username=username, password=password)
+            user = authenticate(username=username, password=password)
             login(request, user)
+            current_user = request.user
+            data = UserProfile()
+            data.user_id = current_user.id
+            data.image = "images/users/user.jpg"
+            data.save()
             return HttpResponseRedirect('/')
 
     form = SignUpForm()
@@ -137,11 +140,11 @@ def signup_view(request):
     return render(request, 'signup.html', context)
 
 
-
-
-
-
-
-
-
+def faq(request):
+    category = Category.objects.all()
+    faq = Faq.objects.all().order_by('orderNumber')
+    context = {'category': category,
+               'faq': faq
+               }
+    return render(request, 'sss.html', context)
 

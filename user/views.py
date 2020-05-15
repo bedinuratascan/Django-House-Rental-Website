@@ -6,8 +6,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 
 from home.models import UserProfile
-from house.models import Category, Comment
-from user.forms import UserUpdateForm, ProfileUpdateForm
+from house.models import Category, Comment, House
+from user.forms import UserUpdateForm, ProfileUpdateForm, HouseForm
 
 
 def index(request):
@@ -72,3 +72,82 @@ def delete_comment(request, id):
     Comment.objects.filter(id=id, user_id=current_user).delete()
     messages.error(request, 'Comment Deleted...')
     return HttpResponseRedirect('/user/comments')
+
+
+@login_required(login_url='/login')
+def houses(request):
+    category = Category.objects.all()
+    current_user = request.user
+    house = House.objects.filter(user_id=current_user.id)
+    context = {'category': category,
+               'house': house}
+    return render(request, 'user_houses.html', context)
+
+
+@login_required(login_url='/login')
+def addhouse(request):
+    if request.method == 'POST':
+        form = HouseForm(request.POST, request.FILES)
+        if form.is_valid():
+            current_user = request.user
+            data = House()
+            data.user_id = current_user.id
+            data.title = form.cleaned_data['title']
+            data.category = form.cleaned_data['category']
+            data.keywords = form.cleaned_data['keywords']
+            data.description = form.cleaned_data['description']
+            data.slug = form.cleaned_data['slug']
+            data.image = form.cleaned_data['image']
+            data.rent = form.cleaned_data['rent']
+            data.detail = form.cleaned_data['detail']
+            data.status = 'False'
+            data.area = form.cleaned_data['area']
+            data.location = form.cleaned_data['location']
+            data.room = form.cleaned_data['room']
+            data.buildingFloor = form.cleaned_data['buildingFloor']
+            data.floorLocation = form.cleaned_data['floorLocation']
+            data.furnished = form.cleaned_data['furnished']
+            data.balconied = form.cleaned_data['balconied']
+            data.heating = form.cleaned_data['heating']
+            data.withintheSite = form.cleaned_data['withintheSite']
+            data.fromWho = form.cleaned_data['fromWho']
+            data.save()
+            messages.success(request, 'Your house added successfully!')
+            return HttpResponseRedirect('/user/houses')
+        else:
+            messages.success(request, 'Your form error! :' + str(form.errors))
+            return HttpResponseRedirect('/user/addhouse')
+    else:
+        category = Category.objects.all()
+        form = HouseForm()
+        context = {'category': category,
+                   'form': form}
+        return render(request, 'user_addhouse.html', context)
+
+
+@login_required(login_url='/login')
+def edithouse(request, id):
+    house = House.objects.get(id=id)
+    if request.method == 'POST':
+        form = HouseForm(request.POST, request.FILES, instance=house)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your house updated successfully!')
+            return HttpResponseRedirect('/user/houses')
+        else:
+            messages.success(request, 'Your form error! :' + str(form.errors))
+            return HttpResponseRedirect('/user/edithouse/')
+    else:
+        category = Category.objects.all()
+        form = HouseForm(instance=house)
+        context = {'category': category,
+                   'form': form}
+        return render(request, 'user_addhouse.html', context)
+
+
+@login_required(login_url='/login')
+def deletehouse(request, id):
+    current_user = request.user
+    House.objects.filter(id=id, user_id=current_user.id).delete()
+    messages.success(request, 'Your house deleted successfully!')
+    return HttpResponseRedirect('/user/houses')
