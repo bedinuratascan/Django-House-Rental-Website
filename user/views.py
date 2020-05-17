@@ -6,9 +6,9 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 
 from home.models import UserProfile
-from house.models import Category, Comment, House
+from house.models import Category, Comment, House, Images
 from user.forms import UserUpdateForm, ProfileUpdateForm, HouseForm
-
+from user.models import HouseImageForm
 
 def index(request):
     category = Category.objects.all()
@@ -151,3 +151,30 @@ def deletehouse(request, id):
     House.objects.filter(id=id, user_id=current_user.id).delete()
     messages.success(request, 'Your house deleted successfully!')
     return HttpResponseRedirect('/user/houses')
+
+
+def houseaddimage(request, id):
+    if request.method == 'POST':
+        lasturl = request.META.get('HTTP_REFERER')
+        form = HouseImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            data = Images()
+            data.title = form.cleaned_data['title']
+            data.house_id = id
+            data.image = form.cleaned_data['image']
+            data.save()
+            messages.success(request, 'Your image has been successfully uploaded!')
+            return HttpResponseRedirect(lasturl)
+        else:
+            messages.warning(request, 'Form Error :' + str(form.errors))
+            return HttpResponseRedirect(lasturl)
+    else:
+        house = House.objects.get(id=id)
+        images = Images.objects.filter(house_id=id)
+        form = HouseImageForm()
+        context = {
+            'house': house,
+            'images': images,
+            'form': form
+        }
+        return render(request, 'house_gallery.html', context)

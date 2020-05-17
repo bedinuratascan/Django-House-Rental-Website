@@ -13,8 +13,8 @@ urlpatterns = [
     path('edithouse/<int:id>', views.edithouse, name='edithouse'),
     path('deletehouse/<int:id>', views.deletehouse, name='deletehouse'),
     path('houses/', views.houses, name='houses'),
+    path('houseaddimage/<int:id>', views.houseaddimage, name='houseaddimage'),
 
-    # path('addcomment/<int:id>', views.addcomment, name='addcomment'),
     # ex: /home/5/
     # path('<int:question_id>/', views.detail, name='detail'),
     # ex: /home/5/results/

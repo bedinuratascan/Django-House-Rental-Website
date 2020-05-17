@@ -44,6 +44,7 @@
                                     <th>Image</th>
                                     <th>House</th>
                                     <th>Category</th>
+                                    <th>Gallery</th>
                                     <th>Rent</th>
                                     <th>Status</th>
                                 </tr>
@@ -56,6 +57,9 @@
                                             <a href="/house/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a>
                                         </td>
                                         <td>{{rs.category}}</td>
+                                        <td>
+                                            <a href="javascript:;" onclick="window.open('/user/houseaddimage/{{ rs.id }}', 'gallery', 'height=600,width=800,top=50,left=150')">Gallery</a>
+                                        </td>
                                         <td>{{rs.rent}}</td>
                                         <td>{{rs.status}}</td>
                                         <td>
